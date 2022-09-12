@@ -1,0 +1,46 @@
+#dv1 {
+			width: 100%;
+			height: 300px;
+			background: #ddd;
+			border: 1px solid black;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 10pc;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.btnSlider {
+			height: 50px;
+			paddig: 10px;
+			margin-left: 20px;
+			margin-right: 20px;
+			font-weight: bold;
+			background: rgba(31, 31, 31);
+			color: #fff;
+			cursor: pointer;
+		}
+
+		#dvload {
+			border: 1px solid black;
+			height: 5px;
+			width: 100%;
+			margin-top: 20%;
+		}
+
+		#dvBarra {
+			width: 0%;
+			background-color: red;
+			height: 5px;
+		}
+
+		footer {
+			text-align: center;
+		}
+
+		@media (max-width: 600px) {
+			#dvload {
+				margin-top: 50%;
+			}
+		}
